@@ -17,4 +17,4 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_w = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_py_checkers = ["pylint", "flake8"]
-let g:syntastic_python_pylint_args = "--load-plugins pylint_django"
+"let g:syntastic_python_pylint_args = "--load-plugins pylint_django"
