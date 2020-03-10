@@ -1,18 +1,14 @@
-Vim config for Python and Django dev.
+Vim config for Python (and Django) dev.
 
-Expects flake8, pylint and pylint_django
-to be available in the path.
-Pylint fails if pylint_django is not present.
-To take advantage of pylint
-in Python environments without Django,
-comment out the last line of `vimrc`.
-
+Expects flake8 and pylint in the path.
+To lint Django, install `pylint_django`
+and uncomment the last line of `vimrc`.
 
 Plugin database:
 
     https://vimawesome.com/
 
-Submodules:
+Plugins I like:
 
     https://github.com/fholgado/minibufexpl.vim
     https://github.com/vim-airline/vim-airline
@@ -24,16 +20,16 @@ Submodules:
 
 Installation:
 
-    git clone https://github.com/puptel/puptel-vim ~/.vim
+    git clone https://github.com/tessercat/dotvim ~/.vim
     cd ~/.vim
     git submodule init
     git submodule update
-
-Update submodules:
-
-    git submodule foreach git pull origin master
 
 Other shell stuff I like:
 
     ln -s ~/.vim/inputrc ~/.inputrc
     echo "export PROMPT_DIRTRIM=2" >> ~/.bashrc
+
+Update submodules:
+
+    git submodule foreach git pull origin master
