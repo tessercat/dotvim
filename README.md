@@ -42,10 +42,8 @@ Python plugins.
     https://github.com/Vimjas/vim-python-pep8-indent
 
 Use a Python virtualenv
-and put flake8, pylint and eslint in the path.
-
-To lint Django, install `pylint_django`
-and uncomment the last line of `vimrc`.
+and put `flake8` and `pylint` in the path,
+and to lint Django, install `pylint_django`.
 
 
 ## JavaScript
