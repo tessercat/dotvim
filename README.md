@@ -52,7 +52,9 @@ To install eslint,
 [install nvm](https://github.com/nvm-sh/nvm#install--update-script)
 for a shell account.
 
-    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh > nvm.sh
+Check the lastest version, and:
+
+    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/<version>/install.sh > nvm.sh
     bash nvm.sh
     nvm install node
 
